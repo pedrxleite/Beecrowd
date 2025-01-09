@@ -1,0 +1,5 @@
+R = int(input(), 16)
+G = int(input(), 16)
+B = int(input(), 16)
+resultado = 1 + (R//G)**2 + ((R//G)**2 * (G//B)**2)
+print(hex(resultado)[2:])
